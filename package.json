@@ -1,0 +1,39 @@
+{
+  "name": "tideapp-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for TideApp in React",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [
+    "p2p",
+    "lending",
+    "react"
+  ],
+  "author": "Ong Teck Wu",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.10.4",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "css-loader": "^0.23.1",
+    "html-webpack-plugin": "^1.7.0",
+    "html-webpack-template": "^2.5.1",
+    "node-sass": "^3.8.0",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.1.0",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.14.0"
+  }
+}
